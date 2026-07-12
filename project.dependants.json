@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "dependants": [
+    {
+      "repository": "kitty-crow/thistle-asm",
+      "dependency": "KITTYX",
+      "impact": [
+        "contracts",
+        "assembler"
+      ]
+    },
+    {
+      "repository": "kitty-crow/thistle",
+      "dependency": "KITTYX",
+      "impact": [
+        "contracts",
+        "kernel"
+      ]
+    },
+    {
+      "repository": "kitty-crow/baguette",
+      "dependency": "KITTYX",
+      "impact": [
+        "contracts",
+        "wasm-compiler"
+      ]
+    },
+    {
+      "repository": "kitty-crow/thistlecc",
+      "dependency": "KITTYX",
+      "impact": [
+        "contracts",
+        "compiler-driver"
+      ]
+    }
+  ]
+}

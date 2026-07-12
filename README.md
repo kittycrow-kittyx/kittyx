@@ -1,0 +1,36 @@
+# KITTYX
+
+**KITTYX** is **Kitty's Integrated TypeScript Toolchain Yielding a
+uniX-like system**.
+
+This package defines the names and interchange contracts used by the
+Thistle target. It contains the machine descriptions for Thistle32
+and Thistle64, the THX and THO file identities, and the schema used to
+pin compatible project revisions.
+
+## Package
+
+The public entry point is `src/index.ts`. The main modules are:
+
+- `src/targets.ts` for machine and ABI identities;
+- `src/thx.ts` for object and executable format constants;
+- `src/dependencies.ts` for dependency manifest types.
+
+## Build and test
+
+    npm install
+    npm test
+
+`npm test` performs a TypeScript type check. The package contains
+declarations and schemas rather than generated runtime artefacts.
+
+## Documentation
+
+- [Targets](docs/targets.md)
+- [THX and THO identities](docs/thx.md)
+- [Dependency manifests](docs/dependencies.md)
+- [Compatibility and versioning](docs/versioning.md)
+
+## Licence
+
+MIT. See `LICENSE`.
