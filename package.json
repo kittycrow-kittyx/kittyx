@@ -1,0 +1,20 @@
+{
+  "name": "@kittyx/contracts",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Shared contracts for the KITTYX project family.",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run check"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "author": {
+    "name": "Kitty Crow",
+    "url": "https://kittycrow.dev"
+  },
+  "license": "MIT"
+}
