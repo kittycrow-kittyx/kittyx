@@ -1,2 +1,3 @@
-# CI helper scripts are repository automation, not the KITTYX implementation.
-scripts/ci/** linguist-detectable=false
+# Shell and Python files are project automation/support tooling, not the implementation.
+*.sh linguist-detectable=false
+*.py linguist-detectable=false
