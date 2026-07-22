@@ -3,10 +3,10 @@
 **KITTYX** is **Kitty's Integrated TypeScript Toolchain Yielding a
 uniX-like system**.
 
-This package defines the names and interchange contracts used by the
-Thistle target. It contains the machine descriptions for Thistle32
-and Thistle64, the THX and THO file identities, and the schema used to
-pin compatible project revisions.
+This package defines the names and interchange contracts used across
+the KITTYX projects. It contains the machine descriptions for
+Thistle32 and Thistle64, the THX and THO file identities, and the
+schema used to pin compatible project revisions.
 
 ## Package
 
