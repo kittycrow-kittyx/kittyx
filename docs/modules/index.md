@@ -1,3 +1,7 @@
 # Package entry point
 
-`src/index.ts` re-exports the target definitions from `targets.ts`, binary format constants from `thx.ts` and manifest types from `dependencies.ts`. Import the contracts from `@kittyx/contracts`. No I/O or initialisation is performed by this module.
+Import from `@kittyx/contracts` for the following exports:
+
+- `ThistleMachine`, `ThistleInstructionSet`, `THISTLE32`, `THISTLE64`: [target contracts](targets.md).
+- `THISTLE_OBJECT_MAGIC`, `THISTLE_EXECUTABLE_MAGIC`, `THISTLE_EXECUTABLE_EXTENSIONS`, `ThxEnvelope`: [binary format identities](thx.md).
+- `DependencyRelationship`, `ProjectDependency`: [manifest types](dependencies.md).
