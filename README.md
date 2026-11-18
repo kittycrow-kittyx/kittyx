@@ -21,10 +21,12 @@ The public entry point is `src/index.ts`. The main modules are:
     npm install
     npm test
 
-`npm test` performs a TypeScript type check. The package contains
+`npm test` runs Code Guards in strict mode and checks TypeScript types. The package contains
 declarations and schemas rather than generated runtime artefacts.
 
 ## Documentation
+
+[Module reference](docs/index.md)
 
 - [Targets](docs/targets.md)
 - [THX and THO identities](docs/thx.md)

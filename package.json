@@ -7,9 +7,11 @@
   "exports": "./src/index.ts",
   "scripts": {
     "check": "tsc -p tsconfig.json --noEmit",
-    "test": "npm run check"
+    "test": "npm run guards && npm run check",
+    "guards": "code-guards all --strict --path . --include-tests"
   },
   "devDependencies": {
+    "@kitty-crow/code-guards": "git+https://github.com/kitty-crow/code-guards.git#ed92b24c29a21c6cf03486c73b070005bb7bb959",
     "typescript": "^5.9.2"
   },
   "author": {
