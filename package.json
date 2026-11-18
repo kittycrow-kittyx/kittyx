@@ -11,7 +11,7 @@
     "guards": "code-guards all --strict --path . --include-tests"
   },
   "devDependencies": {
-    "@kitty-crow/code-guards": "git+https://github.com/kitty-crow/code-guards.git#ed92b24c29a21c6cf03486c73b070005bb7bb959",
+    "@kitty-crow/code-guards": "git+https://github.com/kitty-crow/code-guards.git#b858b0e0a912b1315fde3203d1e7bcc2ff2d5427",
     "typescript": "^5.9.2"
   },
   "author": {
