@@ -16,12 +16,15 @@ The public entry point is `src/index.ts`. The main modules are:
 - `src/thx.ts` for object and executable format constants;
 - `src/dependencies.ts` for dependency manifest types.
 
-## Build and test
+## Contract validation
 
-    npm install
-    npm test
+Bun is the required runtime. No JavaScript build step is needed.
 
-`npm test` runs Code Guards in strict mode and checks TypeScript types. The package contains
+    bun install
+    bun run guards
+    bun run check
+
+`bun run test` runs Code Guards in strict mode and checks TypeScript types. The package contains
 declarations and schemas rather than generated runtime artefacts.
 
 ## Documentation

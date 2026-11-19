@@ -6,9 +6,9 @@
   "description": "Shared contracts for the KITTYX project family.",
   "exports": "./src/index.ts",
   "scripts": {
-    "check": "tsc -p tsconfig.json --noEmit",
-    "test": "npm run guards && npm run check",
-    "guards": "code-guards all --strict --path . --include-tests"
+    "check": "bun --bun tsc -p tsconfig.json --noEmit",
+    "test": "bun run guards && bun run check",
+    "guards": "bun node_modules/@kitty-crow/code-guards/src/cli.ts all --strict --path . --include-tests"
   },
   "devDependencies": {
     "@kitty-crow/code-guards": "git+https://github.com/kitty-crow/code-guards.git#d1ce06c6b4a71e5f94ca97ba4b0f6780408aa3f6",
@@ -18,5 +18,8 @@
     "name": "Kitty Crow",
     "url": "https://kittycrow.dev"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.1.0"
+  }
 }
